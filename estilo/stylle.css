@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background:white;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  
+  margin-top: 20px;
+}
+
+h1, h2, p  {
+text-align: center;
+text-transform: uppercase;
+}
+
+h1 {
+  background: rgb(26, 26, 150) ;
+  color: white;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+h2 {
+  background: rgb(202, 196, 196);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+   
+}
+ 
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.menu a {
+  background: rgb(26, 26, 150);
+  padding: 15px 45px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  border:  rgb(26, 26, 150) solid 4px;
+  font-size: 40px;
+}
+
+.menus {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.menus a {
+  background: rgb(26, 26, 150);
+  padding: 15px 45px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  border:  rgb(26, 26, 150) solid 4px;
+ 
+}
+
+.home {
+   display: grid;
+  flex-wrap: wrap;
+  place-self: start;
+  
+}
+
+.home a {
+  background: rgb(26, 26, 150);
+  padding: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 50px 50px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+  border:  rgb(26, 26, 150) solid 4px;
+  font-size: 20px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr; 
+  max-width: 900px;
+}
+
+.botao {
+  background: rgb(26, 26, 150);
+  color: white;
+  display: grid;
+  justify-content: center;
+  place-self: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.end {
+  color: red;
+ font-weight: bold;
+}
+
+.manuais {
+ align-items: center;
+}
+
+.espaco {
+  margin-bottom: 30px;
+}
